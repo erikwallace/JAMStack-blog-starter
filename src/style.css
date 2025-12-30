@@ -385,3 +385,11 @@ section,
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
 }
+
+/* //////////////////////
+  View transitions
+  /////////////////////// */
+/* https://www.amitmerchant.com/bare-minimum-view-transitions/ */
+@view-transition {
+  navigation: auto;
+}
